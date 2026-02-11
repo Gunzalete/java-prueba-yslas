@@ -221,3 +221,11 @@ src/
 └── test/
     └── java/                      # Tests unitarios
 ```
+
+## Qué mejoraría con más tiempo
+
+- Autenticación y autorización: JWT, roles y permisos para endpoints sensibles.
+- Tests de integración y e2e: cobertura para controladores, repositorios y flujos completos.
+- Documentación OpenAPI/Swagger pública y ejemplos de request/responses.
+- Mejora de la arquitectura: DTOs más robustos.
+- Observabilidad: log estructurado, métricas y trazas distribuidas (Prometheus/Jaeger).
