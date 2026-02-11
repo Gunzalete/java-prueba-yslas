@@ -13,13 +13,6 @@ Clonar el proyecto, situarse en la carpeta del sitio y correr:
 1) `docker compose up --build`
 2) Abrir `http://localhost:8080`
 
-Si es la primera vez, el contenedor construye la aplicación y la ejecuta automáticamente.
-
-Alternativamente, sin Docker:
-```bash
-./mvnw spring-boot:run
-```
-
 ### Endpoints de la API
 
 **Productos:**
