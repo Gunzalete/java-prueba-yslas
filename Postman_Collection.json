@@ -816,48 +816,6 @@
 				}
 			],
 			"description": "Endpoints para gestión de pedidos.\n\nIncluye operaciones CRUD completas con ejemplos de reglas de negocio y validaciones."
-		},
-		{
-			"name": "Health Check",
-			"item": [
-				{
-					"name": "Health Check",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"exec": [
-									"pm.test(\"Status code is 200\", function () {",
-									"    pm.response.to.have.status(200);",
-									"});",
-									"",
-									"pm.test(\"Application is UP\", function () {",
-									"    var jsonData = pm.response.json();",
-									"    pm.expect(jsonData.status).to.eql(\"UP\");",
-									"});"
-								],
-								"type": "text/javascript"
-							}
-						}
-					],
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{baseUrl}}/actuator/health",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"actuator",
-								"health"
-							]
-						},
-						"description": "Verifica que la aplicación esté funcionando correctamente.\n\nÚtil para monitoring y Docker health checks."
-					},
-					"response": []
-				}
-			]
 		}
 	],
 	"event": [
