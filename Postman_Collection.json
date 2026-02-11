@@ -2,7 +2,6 @@
 	"info": {
 		"_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
 		"name": "Prueba Técnica Java - Yslas",
-		"description": "Colección completa de endpoints para la API de Catálogo y Pedidos.\n\n## Características\n- 10 endpoints (5 Productos + 5 Pedidos)\n- Ejemplos con datos válidos e inválidos\n- Variables de entorno configuradas\n- Tests automáticos en cada request\n\n## Cómo usar\n1. Importar esta colección en Postman\n2. Importar el archivo de Environment (Postman_Environment.json)\n3. Asegurarse de que la API esté corriendo en http://localhost:8080\n4. Ejecutar los requests en orden para mejores resultados\n\n## Orden recomendado\n1. Products → Create Product (varias veces para tener datos)\n2. Products → Get All Products\n3. Products → Get Product by ID\n4. Orders → Create Order (usar productId de productos creados)\n5. Orders → Get All Orders\n6. Experimentar con filtros y validaciones",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
