@@ -73,11 +73,17 @@ Formato de errores de negocio (HTTP 400/422) — ejemplo:
 
 ### Probar con Postman
 
-1) Crear una coleccion nueva.
-2) Agregar una variable de coleccion `baseUrl` con valor `http://localhost:8080`.
-3) Crear requests con `Accept: application/json` y `Content-Type: application/json`.
+1) Abre Postman
+2) Click en `Import` (esquina superior izquierda)
+3) Selecciona los dos archivos:
+   - `Postman_Collection.json` - Contiene todos los requests (endpoints)
+   - `Postman_Environment.json` - Contiene variables (baseUrl, etc.)
+4) Click en `Import`
+5) En la esquina superior derecha, selecciona el environment: `Prueba Java Yslas - Local`
+6) ¡Listo! Todos los requests están listos para usar
 
-También puedes importar la colección `Postman_Collection.json` incluida en este repositorio para probar rápidamente los endpoints.
+
+
 
 #### Crear producto
 
